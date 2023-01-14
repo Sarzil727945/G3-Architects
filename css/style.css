@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header part starts */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1285px;
+}
+nav{
+    padding: 50px 2% 50px 10%;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav2 h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+.nav3 ul{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+}
+.login-spaces{
+    margin-left: 25px;
+}
+.nav3 ul{
+    list-style: none;
+}
+.nav3 ul li a{
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+}
+@media only screen and (max-width: 600px) {
+    .nav1{
+        display: block;
+        justify-items: start;
+    
+    }
+    .login-spaces{
+        margin-left: 0px;
+    }
+    .nav3{
+        margin-top: 25px;
+    }
+    .nav3 ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+    }
+  }
+  /* nav end */
+
+  .article{
+    display: grid;
+    justify-items: center;
+  }
+  .article1{
+    margin: 80px 0px;
+    width: 48%;
+    text-align: center;
+  }
+  .article1 h2{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 75px;
+  }
+  .article1 p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .article1 button{
+    margin-top: 33px;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+  
+  @media only screen and (max-width: 600px){
+    .article1{
+        margin: 15px 0px;
+        width: 100%;
+        text-align: center;
+      }
+  }
+
+  .background-img{
+    width: 80%;
+    height: 630px;
+    background-size: 100% 80%;
+    background-image: url(..//images/banner.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    margin: 50px 2% 50px 10%;
+  }
+/* header part end */
+
+/* section part strate  */
+section{
+    margin: 70px 0px;
+    width: 100%;
+}
+.section{
+    display: flex;
+}
+  .section1{
+    width: 50%;
+  }
+  .section1-1{
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+  }
+  .section1-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+  }
+  .section1 img{
+    width: 250px;
+    height: 250px;
+  }
+  .section2{
+    width: 50%;
+    display: grid;
+    align-items: center;
+  }
+  .section2-1{
+    width: 470px;
+    height: 304px;
+    margin-left: 70px;
+    margin-top: 25px;
+  }
+  .section2-1 h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 40px;
+  }
+  .section2-1 .span1{
+    color: #727272;
+  }
+  .section2-1 .span2{
+     color: #FF900E;
+  }
+  .section2-1 p{
+    margin: 10px 0px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .section2-1 button{
+    margin-top: 5px;
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+  @media only screen and (max-width: 600px){
+    .section{
+        display: block;
+    }
+    .section1{
+        width: 100%;
+      }
+      .section1-1{
+        display: block;
+      }
+      .section1-2{
+        display: block;
+      }
+      .section1 img{
+        margin-top: 10px;
+        width: 100%;
+        height: 250px;
+      }
+      .section2{
+        width: 100%;  
+      }
+      .section2-1{
+        width: 90%;
+        height: 304px;
+        margin-left: 0px;
+      }
+  }
+/* section part end */
