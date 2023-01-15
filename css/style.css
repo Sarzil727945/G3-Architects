@@ -374,6 +374,7 @@ section{
       .aside1{
         width: 100%;
         margin: 25px 0px;
+        text-align: center;
       }
       .aside2{
         margin: 20px 0px;
@@ -446,10 +447,10 @@ section{
       grid-template-columns: repeat(1,1fr);
     }
     .footer-up2-2{
-      margin: 20px auto;
+      margin: 10px auto;
     }
     .footer-up2-2 img{
-      width: 100%;
+      width: 90%;
       height: 100px;
     }
 }
@@ -457,7 +458,7 @@ section{
 
 /* footer part start */
   .footer{
-      margin: 100px auto;
+      margin: 100px auto 0px auto;
       width: 80%;
       height: 100px;    
       background: #FFF4E7;
