@@ -343,6 +343,11 @@ section{
       height: 200px;
       border: 1px solid #FF900E;
     }
+    .aside2-2:hover{
+      transform: scale(1.5);
+      background-color: aquamarine;
+      transition:  transform 0.5s ease-in ;
+    }
     .aside2-2-1{
       text-align: center;
       margin: 40px 0px;
@@ -380,6 +385,11 @@ section{
       .aside2-2{
         width: 99%;
         margin-top: 20px;
+      }
+      .aside2-2:hover{
+        transform: scale(1);
+        background-color: aquamarine;
+        transition:  none ;
       }
     }
 /* aside part end */
